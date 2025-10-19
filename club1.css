@@ -61,12 +61,15 @@ body {
 .pro .itm {
     font-size: 28px;
     color: #fff;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .pro a:hover .itm {
     transform: translateY(-3px);
-    color: #5c0000;
+    background-color: #5c0000;
+    color: #fff;
 }
 
 /* Contact section spacing */
