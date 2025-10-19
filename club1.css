@@ -64,23 +64,9 @@ body {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Learn platform icon styling */
-.learn-icon.itm {
-    width: 28px;
-    height: 28px;
-    padding: 0;
-    background: none;
-    box-shadow: none;
-    filter: brightness(0) invert(1);
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-
 .pro a:hover .itm {
     transform: translateY(-3px);
-}
-
-.pro a:hover .learn-icon.itm {
-    filter: brightness(0) saturate(100%) invert(9%) sepia(73%) saturate(3975%) hue-rotate(345deg) brightness(93%) contrast(108%);
+    color: #5c0000;
 }
 
 /* Contact section spacing */
